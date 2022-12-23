@@ -20,10 +20,10 @@ from schnetpack.data.loader import _atoms_collate_fn
 # from schnetpack1.0.evaluation import DBEvaluator, DBEvaluatorStats
 
 # from mlsuite.novelty_models.novelty_model import NoveltyModel
-from mlsuite.datacreation.data_selection.select_samples import select_configs_uniform_quantity
-from mlsuite.ase_io.db_utils import read_properties_from_db
-from mlsuite.utils.torch_utils import weight_reset, optimizer_to
-from mlsuite.utils.statistics import combine_mean_var_from_subsets
+from mlsuite.select_samples import select_configs_uniform_quantity
+from mlsuite.db_utils import read_properties_from_db
+from mlsuite.utils import weight_reset, optimizer_to
+from mlsuite.utils import combine_mean_var_from_subsets
 
 from utils.profiler import profile # TODO to be del
 
